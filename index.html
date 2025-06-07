@@ -1,21 +1,73 @@
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de [Tu Nombre]</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Estela von Raesfeld</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <h1>Hola, soy [Tu Nombre]</h1>
-    <p>Bienvenida a mi portafolio de proyectos realizados en TripleTen.</p>
+    <header>
+        <img src="tu-foto.jpg" alt="Foto de Estela" class="profile-pic" />
+        <h1>Hola, soy Estela</h1>
+        <p>Bienvenida a mi portafolio de proyectos.</p>
+    </header>
 
-    <h2>Proyectos destacados:</h2>
-    <ul>
-        <li><a href="https://github.com/tuusuario/nombre-del-proyecto1">Proyecto 1: Nombre</a></li>
-        <li><a href="https://github.com/tuusuario/nombre-del-proyecto2">Proyecto 2: Nombre</a></li>
-        <!-- Agrega más según necesites -->
-    </ul>
+    <section>
+        <h2>Proyectos</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Sure Tomorrow</h3>
+                <p>La compañía de seguros Sure Tomorrow quiere resolver varias tareas con la ayuda de machine
+                    learning...</p>
+                <a href="https://github.com/estelavonraesfeld/sure_tomorrow.git" target="_blank">Ver en GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Film Junky Union</h3>
+                <p>Film Junky Union busca detectar automáticamente críticas negativas en reseñas de películas
+                    clásicas...</p>
+                <a href="https://github.com/estelavonraesfeld/Film-Junky-Union-.git" target="_blank">Ver en GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Beta Bank</h3>
+                <p>Desarrollé un modelo predictivo para detectar clientes con riesgo de abandonar Beta Bank...</p>
+                <a href="https://github.com/estelavonraesfeld/Projet_Beta_Bank.git" target="_blank">Ver en GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Rusty Bargain</h3>
+                <p>Creé un modelo que estima el valor de mercado de vehículos con base en especificaciones técnicas...
+                </p>
+                <a href="https://github.com/estelavonraesfeld/Rusty-Bargain.git" target="_blank">Ver en GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>
+            Apasionada por los datos, el aprendizaje continuo y el impacto social. Combino mi experiencia en consultoría
+            de
+            imagen y emprendimiento con habilidades en programación, análisis y visualización de datos.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <ul>
+            <li><a href="https://github.com/estalavonraesfeldfabre" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/estelavonraesfeld" target="_blank">LinkedIn</a></li>
+            <li>estelavonraesfeld@gmail.com</li>
+        </ul>
+        <button id="saludoBtn">Haz clic para saludar</button>
+    </section>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
