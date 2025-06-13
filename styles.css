@@ -55,7 +55,7 @@ button {
 .card-content {
     display: flex;
     align-items: flex-start;
-    gap: 20ox;
+    gap: 40px;
 }
 
 .proyecto-img {
