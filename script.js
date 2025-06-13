@@ -7,3 +7,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+function toggleTexto(boton) {
+    const card = boton.closest(".card");
+    const textoCompleto = card.querySelector(".completo");
+
+    if (textoCompleto.style.display === "none" || textoCompleto.style.display === "") {
+        textoCompleto.style.display = "block";
+        boton.innerText = "Leer menos";
+    } else {
+        textoCompleto.style.display = "none";
+        boton.innerText = "Leer más";
+    }
+}
