@@ -42,7 +42,7 @@ button {
 }
 
 .card {
-    background:#dbe5f1(125, 139, 180);
+    background: #dbe5f1(125, 139, 180);
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -50,4 +50,33 @@ button {
 
 .card h3 {
     margin-top: 0;
+}
+
+.card-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20ox;
+}
+
+.proyecto-img {
+    width: 128px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.texto {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .card-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto-img {
+        width: 100%;
+        max-width: 300px;
+    }
 }

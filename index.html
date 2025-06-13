@@ -32,100 +32,137 @@
         <h2>Proyectos</h2>
         <div class="projects">
             <div class="card">
-                <h3>Sure Tomorrow</h3>
-                <p class="resumen">
-                    La compañía de seguros Sure Tomorrow quiere resolver varias tareas con la ayuda de machine
-                    learning...
-                </p>
+                <div class="card-content">
+                    <img src="images/suretomorrow.jpeg" alt="Sure Tomorrow" class="proyecto-img" />
+                    <div class="texto">
+                        <h3>Sure Tomorrow</h3>
+                        <p class="resumen">
+                            La compañía de seguros Sure Tomorrow quiere resolver varias tareas con la ayuda de machine
+                            learning...
+                        </p>
 
-                <button onclick="toggleTexto(this)">Leer más</button>
+                        <button onclick="toggleTexto(this)">Leer más</button>
 
-                <div class="completo" style="display: none;">
-                    <p> La compañía de seguros Sure Tomorrow quiere resolver varias tareas con la ayuda de machine
-                        learning
-                        y te pide que evalúes esa posibilidad.
-                        <br>Tarea 1: encontrar clientes que sean similares a un cliente determinado. Esto ayudará a los
-                        agentes de la compañía con el marketing.
-                        <br>Tarea 2: predecir la probabilidad de que un nuevo cliente reciba una prestación del seguro.
-                        <br>¿Puede un modelo funcionar mejor que un modelo dummy?
-                        <br>Tarea 3: predecir el número de prestaciones de seguro que un nuevo cliente puede recibir
-                        utilizando un modelo de regresión lineal.
-                        <br>Tarea 4: proteger los datos personales de los clientes sin afectar el modelo del ejercicio
-                        anterior...
-                    </p>
-                    <a href="https://github.com/estelavonraesfeld/sure_tomorrow.git" target="_blank">Ver en GitHub</a>
+                        <div class="completo" style="display: none;">
+                            <p> La compañía de seguros Sure Tomorrow quiere resolver varias tareas con la ayuda de
+                                machine
+                                learning
+                                y te pide que evalúes esa posibilidad.
+                                <br>Tarea 1: encontrar clientes que sean similares a un cliente determinado. Esto
+                                ayudará a los
+                                agentes de la compañía con el marketing.
+                                <br>Tarea 2: predecir la probabilidad de que un nuevo cliente reciba una prestación del
+                                seguro.
+                                <br>¿Puede un modelo funcionar mejor que un modelo dummy?
+                                <br>Tarea 3: predecir el número de prestaciones de seguro que un nuevo cliente puede
+                                recibir
+                                utilizando un modelo de regresión lineal.
+                                <br>Tarea 4: proteger los datos personales de los clientes sin afectar el modelo del
+                                ejercicio
+                                anterior...
+                            </p>
+                            <a href="https://github.com/estelavonraesfeld/sure_tomorrow.git" target="_blank">Ver en
+                                GitHub</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
             <div class="card">
-                <h3>Film Junky Union</h3>
-                <p class="resumen">
-                    Film Junky Union, una nueva comunidad vanguardista para los aficionados de las películas clásicas,
-                    está desarrollando un sistema para filtrar y categorizar reseñas de películas...
-                </p>
+                <div class="card-content">
+                    <img src="images/junkunion.webp" alt="Film Junky Union" class="proyecto-img" />
+                    <div class="texto">
+                        <h3>Film Junky Union</h3>
+                        <p class="resumen">
+                            Film Junky Union, una nueva comunidad vanguardista para los aficionados de las películas
+                            clásicas,
+                            está desarrollando un sistema para filtrar y categorizar reseñas de películas...
+                        </p>
 
-                <button onclick="toggleTexto(this)">Leer más</button>
+                        <button onclick="toggleTexto(this)">Leer más</button>
 
-                <div class="completo" style="display: none;">
-                    <p>Tu objetivo es entrenar un modelo para detectar las críticas negativas de forma automática. Para
-                        lograrlo, utilizarás un conjunto de datos de reseñas de películas de IMDB con leyendas de
-                        polaridad
-                        para construir un modelo que clasifique las reseñas positivas y negativas. Este deberá alcanzar
-                        un
-                        valor F1 de al menos 0.85.
-                    </p>
+                        <div class="completo" style="display: none;">
+                            <p>Tu objetivo es entrenar un modelo para detectar las críticas negativas de forma
+                                automática. Para
+                                lograrlo, utilizarás un conjunto de datos de reseñas de películas de IMDB con leyendas
+                                de
+                                polaridad
+                                para construir un modelo que clasifique las reseñas positivas y negativas. Este deberá
+                                alcanzar
+                                un
+                                valor F1 de al menos 0.85.
+                            </p>
 
-                    <a href="https://github.com/estelavonraesfeld/Film-Junky-Union-.git" target="_blank">Ver en
-                        GitHub</a>
+                            <a href="https://github.com/estelavonraesfeld/Film-Junky-Union-.git" target="_blank">Ver en
+                                GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="card">
-                <h3>Beta Bank</h3>
-                <p class="resumen">
-                    Descripción del proyecto: Los clientes de Beta Bank se están yendo, cada mes, poco a poco. Los
-                    banqueros descubrieron que es más barato salvar a los clientes existentes...
-                </p>
+                <div class="card-content">
+                    <img src="images/betabank.jpeg" alt="Beta Bank" class="proyecto-img" />
+                    <div class="texto">
+                        <h3>Beta Bank</h3>
+                        <p class="resumen">
+                            Descripción del proyecto: Los clientes de Beta Bank se están yendo, cada mes, poco a poco.
+                            Los
+                            banqueros descubrieron que es más barato salvar a los clientes existentes...
+                        </p>
 
-                <button onclick="toggleTexto(this)">Leer más</button>
+                        <button onclick="toggleTexto(this)">Leer más</button>
 
-                <div class="completo" style="display: none;">
-                    <p>Necesitamos predecir si un cliente dejará el banco pronto. Tú tienes los datos sobre el
-                        comportamiento pasado de los clientes y la terminación de contratos con el banco.
-                        <br><br>
-                        Crea un modelo con el máximo valor F1 posible. Para aprobar la revisión, necesitas un valor F1
-                        de al
-                        menos 0.59. Verifica F1 para el conjunto de prueba.
-                        <br><br>
-                        Además, debes medir la métrica AUC-ROC y compararla con el valor F1.
-                    </p>
+                        <div class="completo" style="display: none;">
+                            <p>Necesitamos predecir si un cliente dejará el banco pronto. Tú tienes los datos sobre el
+                                comportamiento pasado de los clientes y la terminación de contratos con el banco.
+                                <br><br>
+                                Crea un modelo con el máximo valor F1 posible. Para aprobar la revisión, necesitas un
+                                valor F1
+                                de al
+                                menos 0.59. Verifica F1 para el conjunto de prueba.
+                                <br><br>
+                                Además, debes medir la métrica AUC-ROC y compararla con el valor F1.
+                            </p>
 
-                    <a href="https://github.com/estelavonraesfeld/Projet_Beta_Bank.git" target="_blank">Ver en
-                        GitHub</a>
+                            <a href="https://github.com/estelavonraesfeld/Projet_Beta_Bank.git" target="_blank">Ver en
+                                GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="card">
-                <h3>Rusty Bargain</h3>
-                <p class="resumen">
-                    El servicio de venta de autos usados Rusty Bargain está desarrollando una aplicación para atraer
-                    nuevos clientes. Gracias a esa app, puedes averiguar rápidamente el valor de mercado de tu coche...
-                </p>
+                <div class="card-content">
+                    <img src="images/rusty.jpeg" alt="Rusty Bargain" class="proyecto-img" />
+                    <div class="texto">
+                        <h3>Rusty Bargain</h3>
+                        <p class="resumen">
+                            El servicio de venta de autos usados Rusty Bargain está desarrollando una aplicación para
+                            atraer
+                            nuevos clientes. Gracias a esa app, puedes averiguar rápidamente el valor de mercado de tu
+                            coche...
+                        </p>
 
-                <button onclick="toggleTexto(this)">Leer más</button>
+                        <button onclick="toggleTexto(this)">Leer más</button>
 
-                <div class="completo" style="display: none;">
-                    <p>Tienes acceso al historial: especificaciones técnicas, versiones de equipamiento y precios.
-                        Tienes
-                        que crear un modelo que determine el valor de mercado.</p>
+                        <div class="completo" style="display: none;">
+                            <p>Tienes acceso al historial: especificaciones técnicas, versiones de equipamiento y
+                                precios.
+                                Tienes
+                                que crear un modelo que determine el valor de mercado.</p>
 
-                    <ul>
-                        <li>la calidad de la predicción</li>
-                        <li>la velocidad de la predicción</li>
-                        <li>el tiempo requerido para el entrenamiento</li>
-                    </ul>
+                            <ul>
+                                <li>la calidad de la predicción</li>
+                                <li>la velocidad de la predicción</li>
+                                <li>el tiempo requerido para el entrenamiento</li>
+                            </ul>
 
-                    <a href="https://github.com/estelavonraesfeld/Rusty-Bargain.git" target="_blank">Ver en GitHub</a>
+                            <a href="https://github.com/estelavonraesfeld/Rusty-Bargain.git" target="_blank">Ver en
+                                GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
     </section>
